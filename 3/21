@@ -1,0 +1,8 @@
+import random
+#picks a integer between the two identified numbers
+#The numbers 0 & 3 are the input values. They are used for picking a number between those two variables.
+random.randint(0, 3)
+random.randint(0, 3)
+print(random.randint(0, 3))
+print(random.randint(0, 3))
+print(random.randint(0, 3)) 

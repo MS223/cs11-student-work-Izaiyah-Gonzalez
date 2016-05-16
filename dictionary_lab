@@ -1,0 +1,17 @@
+user_profile = {
+    'name': "Izzy",
+    'school': "HS223",
+    'birthday': "June 9 1999",
+    'age': 16,
+    'email': "Izaiyah.gonzalez@ms223.org",
+    'username': "IzaiyahG",
+    'birthplace': "New york",
+    'Siblings': "1 brother",
+    'skills': "quick thinker",
+    'autobiography': "I like sports",
+    'quote': "If the purpose of learning is to score well on a test, then we have lost sight of the true reason for learning",
+    'movie': "Captain America: Civil War",
+    'musician': "Kendrick Lamar",
+    'T.V. Show': "Fairy tail",
+    'Book': "To kill a mockingbird"
+}

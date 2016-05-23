@@ -18,4 +18,5 @@ def get():
     for x in Todo_list[day]:
         print x
 for x in range(0,7):
-    #trying to get it to repeat the correct amount of times.
+    print x
+    #MAKE IT REAPEAT CORRECTLY, SK I NEED HELP, I KNOW YOU CAN SEE THIS.

@@ -1,8 +1,3 @@
-action = raw_input("What would you like to do?")
-day = raw_input("What day?").capitalize()
-
-
-
 Todo_list = {
     'Monday': [],
     'Tuesday': [],
@@ -13,10 +8,17 @@ Todo_list = {
     'Sunday': []
 }
 def add():
+    action = raw_input("What would you like to do today?")
+    day = raw_input("What day?").capitalize()
     Todo_list[day].append(action)
 def get():
+    day = raw_input("What day?").capitalize()
     for x in Todo_list[day]:
         print x
-for x in range(0,7):
-    print x
-    #MAKE IT REAPEAT CORRECTLY, SK I NEED HELP, I KNOW YOU CAN SEE THIS.
+user_input = "something"
+while user_input != "exit":
+    user_input = raw_input("What would you like to do?")
+    if user_input == "add":
+        add()
+    if user_input == "get":
+        get()
